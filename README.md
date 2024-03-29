@@ -3,7 +3,9 @@
 - What: Reading papers together on deepfake detection.
 - When: Friday (odd weeks) 2 pm EET
 - Where: Online
-- Other: [Google group](https://groups.google.com/g/deepfake-detection-reading-group)
+- Other:
+  - [Google group](https://groups.google.com/g/deepfake-detection-reading-group)
+  - [Wiki](https://github.com/aletheia-group/reading-group/wiki)
 
 ## Current schedule
 
