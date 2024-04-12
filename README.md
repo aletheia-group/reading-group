@@ -11,6 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
+| 2024-04-12 | Spiros | Jia, Shan, Xin Li, and Siwei Lyu. [Model attribution of face-swap deepfake videos.](https://arxiv.org/pdf/2202.12951.pdf) ICIP, 2022. |
 | 2024-03-29 | Gabi | Müller, Nicolas M., Franziska Dieckmann, and Jennifer Williams. [Attacker attribution of audio deepfakes](https://arxiv.org/pdf/2203.15563.pdf). Interspeech, 2022. |
 | 2024-03-15 | Eli | Zhang, Yue, _et al._ [Common Sense Reasoning for Deep Fake Detection](https://arxiv.org/pdf/2402.00126v1.pdf). arXiv preprint arXiv:2402.00126 (2024). |
 | 2024-02-02 | Ștefan | Nguyen, Dat, _et al._ [LAA-Net: Localized Artifact Attention Network for High-Quality Deepfakes Detection](https://arxiv.org/pdf/2401.13856.pdf). arXiv preprint arXiv:2401.13856 (2024). |
