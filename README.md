@@ -11,6 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
+| 2024-05-22 | Dan | Boyd, Aidan, et al. [The value of AI guidance in human examination of synthetically-generated faces.](https://arxiv.org/pdf/2208.10544) AAAI, 2023. |
 | 2024-05-08 | Adriana | Yu, Zhiyuan, Shixuan Zhai, and Ning Zhang. [AntiFake: Using adversarial audio to prevent unauthorized speech synthesis.](https://dl.acm.org/doi/pdf/10.1145/3576915.3623209) ACM SIGSAC Conference on Computer and Communications Security. 2023. |
 | 2024-04-12 | Spiros | Jia, Shan, Xin Li, and Siwei Lyu. [Model attribution of face-swap deepfake videos.](https://arxiv.org/pdf/2202.12951.pdf) ICIP, 2022. |
 | 2024-03-29 | Gabi | Müller, Nicolas M., Franziska Dieckmann, and Jennifer Williams. [Attacker attribution of audio deepfakes](https://arxiv.org/pdf/2203.15563.pdf). Interspeech, 2022. |
