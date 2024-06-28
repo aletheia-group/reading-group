@@ -11,7 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
-| 2024-06-28 | Ștefan | ??? |
+| 2024-06-28 | Ștefan | Chen, Baoying, _et al._ [DRCT: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images.](https://openreview.net/forum?id=oRLwyayrh1) ICML, 2024 |
 | 2024-06-07 | Christos | Chugh, Komal, _et al._ [Not made for each other-audio-visual dissonance-based deepfake detection and localization.](https://arxiv.org/pdf/2005.14405) ACMM, 2020. |
 | 2024-05-22 | Dan | Boyd, Aidan, _et al._ [The value of AI guidance in human examination of synthetically-generated faces.](https://arxiv.org/pdf/2208.10544) AAAI, 2023. |
 | 2024-05-08 | Adriana | Yu, Zhiyuan, Shixuan Zhai, and Ning Zhang. [AntiFake: Using adversarial audio to prevent unauthorized speech synthesis.](https://dl.acm.org/doi/pdf/10.1145/3576915.3623209) ACM SIGSAC Conference on Computer and Communications Security. 2023. |
