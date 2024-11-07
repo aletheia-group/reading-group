@@ -11,7 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
-| 2024-11-08 | Dan | Rajan, Anirudh Sundara, et al. [On the Effectiveness of Dataset Alignment for Fake Image Detection.](https://arxiv.org/pdf/2410.11835) arXiv preprint arXiv:2410.11835 (2024). |
+| 2024-11-08 | Dan | Rajan, Anirudh Sundara, _et al._ [On the Effectiveness of Dataset Alignment for Fake Image Detection.](https://arxiv.org/pdf/2410.11835) arXiv preprint arXiv:2410.11835 (2024). |
 | 2024-10-25 | David | Azeemi, Abdul Hameed, Ihsan Ayyub Qazi, and Agha Ali Raza. [Self-Supervised Dataset Pruning for Efficient Training in Audio Anti-spoofing.](https://www.isca-archive.org/interspeech_2023/azeemi23_interspeech.pdf) Interspeech, 2023. |
 | 2024-10-11 | Eli | Oorloff, Trevine, _et al._ [AVFF: Audio-Visual Feature Fusion for Video Deepfake Detection.](https://arxiv.org/pdf/2406.02951) CVPR, 2024. |
 | 2024-06-28 | Ștefan | Chen, Baoying, _et al._ [DRCT: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images.](https://openreview.net/forum?id=oRLwyayrh1) ICML, 2024 |
