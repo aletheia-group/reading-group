@@ -11,6 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
+| 2024-11-22 | Dragoș | Sarkar, Ayush, _et al._ [Shadows Don't Lie and Lines Can't Bend! Generative Models don't know Projective Geometry... for now.](https://arxiv.org/pdf/2311.17138) CVPR, 2024. |
 | 2024-11-08 | Dan | Rajan, Anirudh Sundara, _et al._ [On the Effectiveness of Dataset Alignment for Fake Image Detection.](https://arxiv.org/pdf/2410.11835) arXiv preprint arXiv:2410.11835 (2024). |
 | 2024-10-25 | David | Azeemi, Abdul Hameed, Ihsan Ayyub Qazi, and Agha Ali Raza. [Self-Supervised Dataset Pruning for Efficient Training in Audio Anti-spoofing.](https://www.isca-archive.org/interspeech_2023/azeemi23_interspeech.pdf) Interspeech, 2023. |
 | 2024-10-11 | Eli | Oorloff, Trevine, _et al._ [AVFF: Audio-Visual Feature Fusion for Video Deepfake Detection.](https://arxiv.org/pdf/2406.02951) CVPR, 2024. |
