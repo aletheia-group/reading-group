@@ -11,6 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
+| 2024-12-06 | Ștefan | Qiao, Tong, et al. [Fully unsupervised deepfake video detection via enhanced contrastive learning.](https://www.computer.org/csdl/journal/tp/2024/07/10411047/1TV5sFpzZxS) PAMI (2024). |
 | 2024-11-22 | Dragoș | Sarkar, Ayush, _et al._ [Shadows Don't Lie and Lines Can't Bend! Generative Models don't know Projective Geometry... for now.](https://arxiv.org/pdf/2311.17138) CVPR, 2024. |
 | 2024-11-08 | Dan | Rajan, Anirudh Sundara, _et al._ [On the Effectiveness of Dataset Alignment for Fake Image Detection.](https://arxiv.org/pdf/2410.11835) arXiv preprint arXiv:2410.11835 (2024). |
 | 2024-10-25 | David | Azeemi, Abdul Hameed, Ihsan Ayyub Qazi, and Agha Ali Raza. [Self-Supervised Dataset Pruning for Efficient Training in Audio Anti-spoofing.](https://www.isca-archive.org/interspeech_2023/azeemi23_interspeech.pdf) Interspeech, 2023. |
