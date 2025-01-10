@@ -11,6 +11,8 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
+| 2024-01-31 | Xi | Wang, Xi, and Vicky Kalogeiton. [Your diffusion model is an implicit synthetic image detector.](https://hal.science/hal-04713283/document) ECCV, 2024. |
+| 2024-01-14 | ??? | ??? |
 | 2024-12-20 | Christos | Koutlis, Christos, and Symeon Papadopoulos. [DiMoDif: Discourse Modality-information Differentiation for Audio-visual Deepfake Detection and Localization.](https://arxiv.org/pdf/2411.10193) arXiv preprint arXiv:2411.10193 (2024). |
 | 2024-12-06 | Ștefan | Qiao, Tong, et al. [Fully unsupervised deepfake video detection via enhanced contrastive learning.](https://www.computer.org/csdl/journal/tp/2024/07/10411047/1TV5sFpzZxS) PAMI (2024). |
 | 2024-11-22 | Dragoș | Sarkar, Ayush, _et al._ [Shadows Don't Lie and Lines Can't Bend! Generative Models don't know Projective Geometry... for now.](https://arxiv.org/pdf/2311.17138) CVPR, 2024. |
