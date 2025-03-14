@@ -11,7 +11,8 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
-| 2024-01-31 | Xi | Wang, Xi, and Vicky Kalogeiton. [Your diffusion model is an implicit synthetic image detector.](https://hal.science/hal-04713283/document) ECCV, 2024. |
+| 2024-03-14 | Dimtris | Karageorgiou, Dimitrios, et al. [Any-Resolution AI-Generated Image Detection by Spectral Learning.](https://arxiv.org/pdf/2411.19417) CVPR, 2025. |
+| 2024-01-31 | Xi | Wang, Xi, and Vicky Kalogeiton. [Your diffusion model is an implicit synthetic image detector.](https://hal.science/hal-04713283/document) ECCVW, 2024. |
 | 2024-01-14 | Eli | Lian, Jingchun, et al. [A Large-scale Interpretable Multi-modality Benchmark for Facial Image Forgery Localization.](https://arxiv.org/pdf/2412.19685) arXiv preprint arXiv:2412.19685 (2024). |
 | 2024-12-20 | Christos | Koutlis, Christos, and Symeon Papadopoulos. [DiMoDif: Discourse Modality-information Differentiation for Audio-visual Deepfake Detection and Localization.](https://arxiv.org/pdf/2411.10193) arXiv preprint arXiv:2411.10193 (2024). |
 | 2024-12-06 | Ștefan | Qiao, Tong, et al. [Fully unsupervised deepfake video detection via enhanced contrastive learning.](https://www.computer.org/csdl/journal/tp/2024/07/10411047/1TV5sFpzZxS) PAMI (2024). |
