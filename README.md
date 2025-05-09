@@ -11,6 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
+| 2025-05-09 | Teodor | Zhu, Yi, et al. [Slim: Style-linguistics mismatch model for generalized audio deepfake detection.](https://arxiv.org/pdf/2407.18517) NeurIPS, 2024. |
 | 2025-03-14 | Dimtris | Karageorgiou, Dimitrios, et al. [Any-Resolution AI-Generated Image Detection by Spectral Learning.](https://arxiv.org/pdf/2411.19417) CVPR, 2025. |
 | 2025-02-28 | Dragoș | Choi, Jongwook, et al. [Exploiting style latent flows for generalizing deepfake video detection.](https://openaccess.thecvf.com/content/CVPR2024/papers/Choi_Exploiting_Style_Latent_Flows_for_Generalizing_Deepfake_Video_Detection_CVPR_2024_paper.pdf) CVPR, 2024. |
 | 2025-01-31 | Xi | Wang, Xi, and Vicky Kalogeiton. [Your diffusion model is an implicit synthetic image detector.](https://hal.science/hal-04713283/document) ECCVW, 2024. |
