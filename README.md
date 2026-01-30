@@ -1,7 +1,7 @@
 # Reading group
 
 - What: Reading papers together on deepfake detection.
-- When: Friday (odd weeks) 2 pm EET
+- When: Friday (odd weeks) 3 p.m. EET
 - Where: Online
 - Other:
   - [Google group](https://groups.google.com/g/deepfake-detection-reading-group)
@@ -11,8 +11,9 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
-| 2025-06-20 | Dan | Dufour, Nicholas, et al. [AMMeBa: A large-scale survey and dataset of media-based misinformation in-the-wild.](https://arxiv.org/pdf/2405.11697) arXiv preprint arXiv:2405.11697 1.8 (2024). |
-| 2025-06-06 | David | Combei, David, et al. [Unmasking real-world audio deepfakes: A data-centric approach.](https://arxiv.org/abs/2506.09606) Interspeech, 2025. |
+| 2026-01-30 | Christos | Koutlis, Christos, and Symeon Papadopoulos. [AuViRe: Audio-visual Speech Representation Reconstruction for Deepfake Temporal Localization.](https://arxiv.org/pdf/2511.18993) WACV, 2026. |
+| 2025-06-20 | Dan | Dufour, Nicholas, _et al._ [AMMeBa: A large-scale survey and dataset of media-based misinformation in-the-wild.](https://arxiv.org/pdf/2405.11697) arXiv preprint arXiv:2405.11697 1.8 (2024). |
+| 2025-06-06 | David | Combei, David, _et al._ [Unmasking real-world audio deepfakes: A data-centric approach.](https://arxiv.org/abs/2506.09606) Interspeech, 2025. |
 | 2025-05-23 | Ioana | Zhang, Zirui, _et al._ [I can hear you: Selective robust training for deepfake audio detection.](https://openreview.net/forum?id=2GcR9bO620) ICLR, 2025. |
 | 2025-05-09 | Teodor | Zhu, Yi, _et al._ [SLIM: Style-linguistics mismatch model for generalized audio deepfake detection.](https://arxiv.org/pdf/2407.18517) NeurIPS, 2024. |
 | 2025-03-14 | Dimtris | Karageorgiou, Dimitrios, _et al._ [Any-Resolution AI-Generated Image Detection by Spectral Learning.](https://arxiv.org/pdf/2411.19417) CVPR, 2025. |
