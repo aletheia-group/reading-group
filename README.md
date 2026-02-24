@@ -11,6 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
+| 2026-02-27 | Alin | Croitoru, Florinel-Alin, _et al._ [MAVOS-DD: Multilingual Audio-Video Open-Set Deepfake Detection Benchmark.](https://arxiv.org/pdf/2505.11109?) arXiv preprint arXiv:2505.11109 (2025). |
 | 2026-02-13 | Andu | Xiong, Wuti, Guoying Zhao, and Xiaobai Li. [Exemplar-Free Incremental Deepfake Detection.](https://ebooks.iospress.nl/doi/10.3233/FAIA240516) _ECAI_, 2025. |
 | 2026-01-30 | Christos | Koutlis, Christos, and Symeon Papadopoulos. [AuViRe: Audio-visual Speech Representation Reconstruction for Deepfake Temporal Localization.](https://arxiv.org/pdf/2511.18993) WACV, 2026. |
 | 2025-06-20 | Dan | Dufour, Nicholas, _et al._ [AMMeBa: A large-scale survey and dataset of media-based misinformation in-the-wild.](https://arxiv.org/pdf/2405.11697) arXiv preprint arXiv:2405.11697 1.8 (2024). |
