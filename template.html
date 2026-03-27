@@ -1,101 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
 <body>
 
-<header class="text-white text-center py-5">
-  <h1 class="fw-normal fs-2">{{ title }}</h1>
-  <p class="fst-italic mb-0">{{ subtitle }}</p>
-</header>
+  <div class="container text-center my-3">
+    <h2>Deepfake Detection Reading Group</h2>
+  </div>
 
-<main class="container py-4" style="max-width: 900px;">
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 my-3">
-    <div class="col">
-      <div class="card h-100 info-card">
-        <div class="card-body">
-          <div class="label mb-1">When</div>
-          <div>{{ schedule }}<br>{{ time }}</div>
-          <a target="_blank" href="{{ calendar_url }}" class="d-inline-block mt-3"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
+  <div class="container pt-3">
+    <p>
+      We meet every two weeks to discuss papers on deepfake detection.
+      Sessions are informal–we often dive straight into the paper together–so little to no preparation is required.
+      Each session features either a paper someone found interesting or an invited speaker presenting their own work (denoted by <i class="bi bi-bookmark-star-fill"></i> below).
+      If you'd like to attend or present, join our mailing list (details below).
+    </p>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+      <div class="col">
+        <div class="card h-100 info-card">
+          <div class="card-body">
+            <div class="label mb-1 text-secondary">When</div>
+            <div>{{ schedule }}<br>{{ time }}</div>
+            <a target="_blank" href="{{ calendar_url }}" class="d-inline-block"><img border="0"
+                src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100 info-card">
-        <div class="card-body">
-          <div class="label mb-1">Where</div>
-          <div>{{ where }}</div>
+      <div class="col">
+        <div class="card h-100 info-card">
+          <div class="card-body">
+            <div class="label mb-1 text-secondary">Where</div>
+            <div><a href="{{ where_url }}">Online (Google Meet)</a></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100 info-card">
-        <div class="card-body">
-          <div class="label mb-1">Mailing list</div>
-          <div><a href="{{ mailing_list_url }}">Google Group</a></div>
+      <div class="col">
+        <div class="card h-100 info-card">
+          <div class="card-body">
+            <div class="label mb-1 text-secondary">Mailing list</div>
+            <div><a href="{{ mailing_list_url }}">Google Group</a></div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col">
-      <div class="card h-100 info-card">
-        <div class="card-body">
-          <div class="label mb-1">Notes &amp; resources</div>
-          <div><a href="{{ wiki_url }}">Wiki</a></div>
+      <div class="col">
+        <div class="card h-100 info-card">
+          <div class="card-body">
+            <div class="label mb-1 text-secondary">Notes &amp; resources</div>
+            <div><a href="{{ wiki_url }}">Wiki</a></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  {% for season in seasons %}
-  <h2 class="border-bottom pb-2 mt-5 mb-3">{{ season.name }}</h2>
+  <div class="container">
+    {% for season in seasons %}
+    <h3 class="mt-4">
+      {{ season.name }}
+      <span class="mx-1 fs-4 text-muted"> · </span>
+      <span class="fs-4 text-muted"> {{ season.time_range[0] }} – {{ season.time_range[1] }}</span>
+    </h3>
 
-  <div class="table-responsive">
-    <table class="table table-bordered table-hover table-sm align-middle" style="font-size: 0.92rem;">
-      <thead class="table-light">
-        <tr>
-          <th>Date</th>
-          <th>Presenter</th>
-          <th>Paper</th>
-          <th>Type</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for p in season.presentations %}
-        <tr>
-          <td class="date">{{ p.date }}</td>
-          <td class="presenter">{{ p.presenter }}</td>
-          <td class="paper">
-            {%- if p.authors.endswith(', et al.') %}
-            {{ p.authors[:-8] }}, <em>et al.</em>
-            {%- else %}
-            {{ p.authors }}
-            {%- endif %}
-            <a href="{{ p.url }}">{{ p.title }}.</a>
-            {%- if p.venue_suffix %}
-            <em>{{ p.venue_name }}</em>{{ p.venue_suffix }}.
-            {%- else %}
-            {{ p.venue_name }}.
-            {%- endif %}
-          </td>
-          <td class="type">
-            {%- if p.type == 'invited' %}
-            <span class="badge text-bg-primary fw-normal" style="font-size:0.68rem;letter-spacing:0.06em;">invited</span>
-            {%- endif %}
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    {% for p in season.presentations %}
+    <div class="my-3">
+    <div>
+      <span class="text-muted">Date:</span> {{ p.date }} ·
+      <span class="text-muted">Speaker:</span> {{ p.presenter }}
+    </div>
+    <div>
+      {%- if p.type == "invited" %}
+      <i class="bi bi-bookmark-star-fill"></i>
+      {%- endif %}
+      {%- if p.authors.endswith(', et al.') %}
+      {{ p.authors[:-8] }}, <em>et al.</em>
+      {%- else %}
+      {{ p.authors }}
+      {%- endif %}
+      <a href="{{ p.url }}">{{ p.title }}.</a>
+      {%- if p.venue_suffix %}
+      <em>{{ p.venue_name }}</em>{{ p.venue_suffix }}.
+      {%- else %}
+      {{ p.venue_name }}.
+      {%- endif %}
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</main>
 
-<footer class="text-center text-muted py-4" style="font-family: system-ui, sans-serif; font-size: 0.8rem;">
-  <p class="mb-0">{{ title }}</p>
-</footer>
+    {% endfor %}
+  </div>
 
 </body>
+
 </html>

@@ -1,15 +1,14 @@
 {
-  "title": "Deepfake Detection Reading Group",
-  "subtitle": "Reading papers together on deepfake detection",
   "schedule": "Fridays (odd weeks)",
   "time": "3:00 p.m. EET",
   "calendar_url": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=YzlnbWFwYjI3MHM2NGJiMzZncG0yYjlrNzBxNjZiYjJjOWgzZWJiNjZoaWo2cDlsNzRvbTZkcjFjY18yMDI2MDMxM1QxMzAwMDBaIGRhbi5vbmVhdGFAbQ&tmsrc=dan.oneata%40gmail.com&scp=ALL",
-  "where": "Online",
+  "where_url": "https://meet.google.com/qkp-ypsg-tqg",
   "mailing_list_url": "https://groups.google.com/g/deepfake-detection-reading-group",
   "wiki_url": "https://github.com/aletheia-group/reading-group/wiki",
   "seasons": [
     {
       "name": "Season 3",
+      "time_range": ["2026-01", "‥."],
       "presentations": [
         {
           "date": "2026-02-27",
@@ -45,6 +44,7 @@
     },
     {
       "name": "Season 2",
+      "time_range": ["2024-10", "2025-06"],
       "presentations": [
         {
           "date": "2025-06-20",
@@ -64,7 +64,7 @@
           "url": "https://arxiv.org/abs/2506.09606",
           "venue_name": "Interspeech",
           "venue_suffix": ", 2025",
-          "type": null
+          "type": "invited"
         },
         {
           "date": "2025-05-23",
@@ -94,7 +94,7 @@
           "url": "https://arxiv.org/pdf/2411.19417",
           "venue_name": "CVPR",
           "venue_suffix": ", 2025",
-          "type": null
+          "type": "invited"
         },
         {
           "date": "2025-02-28",
@@ -114,7 +114,7 @@
           "url": "https://hal.science/hal-04713283/document",
           "venue_name": "ECCVW",
           "venue_suffix": ", 2024",
-          "type": null
+          "type": "invited"
         },
         {
           "date": "2025-01-14",
@@ -190,6 +190,7 @@
     },
     {
       "name": "Season 1",
+      "time_range": ["2023-10", "2024-06"],
       "presentations": [
         {
           "date": "2024-06-28",
