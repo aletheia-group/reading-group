@@ -13,52 +13,86 @@
         {
           "date": "2026-03-27",
           "presenter": "Viola",
-          "authors": "Negroni, Viola, et al.",
-          "title": "Leveraging mixture of experts for improved speech deepfake detection",
-          "url": "https://arxiv.org/pdf/2409.16077",
-          "venue_name": "ICASSP",
-          "venue_suffix": ", 2025",
-          "type": "invited"
+          "type": "invited",
+          "papers": [
+            {
+              "authors": "Negroni, Viola, et al.",
+              "title": "Leveraging mixture of experts for improved speech deepfake detection",
+              "url": "https://arxiv.org/pdf/2409.16077",
+              "venue_name": "ICASSP",
+              "venue_suffix": ", 2025"
+            },
+            {
+              "authors": "Negroni, Viola, et al.",
+              "title": "Attention-based mixture of experts for robust speech deepfake detection",
+              "url": "https://arxiv.org/pdf/2509.17585",
+              "venue_name": "WIFS",
+              "venue_suffix": ", 2025"
+            }
+          ]
         },
         {
           "date": "2026-03-13",
           "presenter": "Ștefan",
-          "authors": "Wang, Chi, et al.",
-          "title": "Low-rank Orthogonal Subspace Intervention for Generalizable Face Forgery Detection",
-          "url": "https://arxiv.org/pdf/2601.11915",
-          "venue_name": "arXiv:2601.11915 (2026)",
-          "venue_suffix": "",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Wang, Chi, et al.",
+              "title": "Low-rank orthogonal subspace intervention for generalizable face forgery detection",
+              "url": "https://arxiv.org/pdf/2601.11915",
+              "venue_name": "arXiv:2601.11915 (2026)",
+              "venue_suffix": ""
+            },
+            {
+              "authors": "Yan, Zhiyuan, et al.",
+              "title": "Orthogonal subspace decomposition for generalizable AI-generated image detection",
+              "url": "https://arxiv.org/pdf/2411.15633",
+              "venue_name": "ICML",
+              "venue_suffix": ", 2025"
+            }
+          ]
         },
         {
           "date": "2026-02-27",
           "presenter": "Alin",
-          "authors": "Croitoru, Florinel-Alin, et al.",
-          "title": "MAVOS-DD: Multilingual Audio-Video Open-Set Deepfake Detection Benchmark",
-          "url": "https://arxiv.org/pdf/2505.11109?",
-          "venue_name": "arXiv:2505.11109 (2025)",
-          "venue_suffix": "",
-          "type": "invited"
+          "type": "invited",
+          "papers": [
+            {
+              "authors": "Croitoru, Florinel-Alin, et al.",
+              "title": "MAVOS-DD: Multilingual audio-video open-set deepfake detection benchmark",
+              "url": "https://arxiv.org/pdf/2505.11109?",
+              "venue_name": "arXiv:2505.11109 (2025)",
+              "venue_suffix": ""
+            }
+          ]
         },
         {
           "date": "2026-02-13",
           "presenter": "Andu",
-          "authors": "Xiong, Wuti, Guoying Zhao, and Xiaobai Li.",
-          "title": "Exemplar-Free Incremental Deepfake Detection",
-          "url": "https://ebooks.iospress.nl/doi/10.3233/FAIA240516",
-          "venue_name": "ECAI",
-          "venue_suffix": ", 2025",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Xiong, Wuti, Guoying Zhao, and Xiaobai Li.",
+              "title": "Exemplar-free incremental deepfake detection",
+              "url": "https://ebooks.iospress.nl/doi/10.3233/FAIA240516",
+              "venue_name": "ECAI",
+              "venue_suffix": ", 2025"
+            }
+          ]
         },
         {
           "date": "2026-01-30",
           "presenter": "Christos",
-          "authors": "Koutlis, Christos, and Symeon Papadopoulos.",
-          "title": "AuViRe: Audio-visual Speech Representation Reconstruction for Deepfake Temporal Localization",
-          "url": "https://arxiv.org/pdf/2511.18993",
-          "venue_name": "WACV",
-          "venue_suffix": ", 2026",
-          "type": "invited"
+          "type": "invited",
+          "papers": [
+            {
+              "authors": "Koutlis, Christos, and Symeon Papadopoulos.",
+              "title": "AuViRe: Audio-visual speech representation reconstruction for deepfake temporal localization",
+              "url": "https://arxiv.org/pdf/2511.18993",
+              "venue_name": "WACV",
+              "venue_suffix": ", 2026"
+            }
+          ]
         }
       ]
     },
@@ -69,142 +103,205 @@
         {
           "date": "2025-06-20",
           "presenter": "Dan",
-          "authors": "Dufour, Nicholas, et al.",
-          "title": "AMMeBa: A large-scale survey and dataset of media-based misinformation in-the-wild",
-          "url": "https://arxiv.org/pdf/2405.11697",
-          "venue_name": "arXiv:2405.11697 (2024)",
-          "venue_suffix": "",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Dufour, Nicholas, et al.",
+              "title": "AMMeBa: A large-scale survey and dataset of media-based misinformation in-the-wild",
+              "url": "https://arxiv.org/pdf/2405.11697",
+              "venue_name": "arXiv:2405.11697 (2024)",
+              "venue_suffix": ""
+            }
+          ]
         },
         {
           "date": "2025-06-06",
           "presenter": "David",
-          "authors": "Combei, David, et al.",
-          "title": "Unmasking real-world audio deepfakes: A data-centric approach",
-          "url": "https://arxiv.org/abs/2506.09606",
-          "venue_name": "Interspeech",
-          "venue_suffix": ", 2025",
-          "type": "invited"
+          "type": "invited",
+          "papers": [
+            {
+              "authors": "Combei, David, et al.",
+              "title": "Unmasking real-world audio deepfakes: a data-centric approach",
+              "url": "https://arxiv.org/abs/2506.09606",
+              "venue_name": "Interspeech",
+              "venue_suffix": ", 2025"
+            },
+            {
+              "authors": "Stan, Adriana, et al.",
+              "title": "TADA: Training-free attribution and out-of-domain detection of audio deepfakes",
+              "url": "https://arxiv.org/pdf/2506.05802",
+              "venue_name": "Interspeech",
+              "venue_suffix": ", 2025"
+            }
+          ]
         },
         {
           "date": "2025-05-23",
           "presenter": "Ioana",
-          "authors": "Zhang, Zirui, et al.",
-          "title": "I can hear you: Selective robust training for deepfake audio detection",
-          "url": "https://openreview.net/forum?id=2GcR9bO620",
-          "venue_name": "ICLR",
-          "venue_suffix": ", 2025",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Zhang, Zirui, et al.",
+              "title": "I can hear you: Selective robust training for deepfake audio detection",
+              "url": "https://openreview.net/forum?id=2GcR9bO620",
+              "venue_name": "ICLR",
+              "venue_suffix": ", 2025"
+            }
+          ]
         },
         {
           "date": "2025-05-09",
           "presenter": "Teo",
-          "authors": "Zhu, Yi, et al.",
-          "title": "SLIM: Style-linguistics mismatch model for generalized audio deepfake detection",
-          "url": "https://arxiv.org/pdf/2407.18517",
-          "venue_name": "NeurIPS",
-          "venue_suffix": ", 2024",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Zhu, Yi, et al.",
+              "title": "SLIM: Style-linguistics mismatch model for generalized audio deepfake detection",
+              "url": "https://arxiv.org/pdf/2407.18517",
+              "venue_name": "NeurIPS",
+              "venue_suffix": ", 2024"
+            }
+          ]
         },
         {
           "date": "2025-03-14",
           "presenter": "Dimitris",
-          "authors": "Karageorgiou, Dimitrios, et al.",
-          "title": "Any-Resolution AI-Generated Image Detection by Spectral Learning",
-          "url": "https://arxiv.org/pdf/2411.19417",
-          "venue_name": "CVPR",
-          "venue_suffix": ", 2025",
-          "type": "invited"
+          "type": "invited",
+          "papers": [
+            {
+              "authors": "Karageorgiou, Dimitrios, et al.",
+              "title": "Any-resolution AI-generated image detection by spectral learning",
+              "url": "https://arxiv.org/pdf/2411.19417",
+              "venue_name": "CVPR",
+              "venue_suffix": ", 2025"
+            }
+          ]
         },
         {
           "date": "2025-02-28",
           "presenter": "Andu",
-          "authors": "Choi, Jongwook, et al.",
-          "title": "Exploiting style latent flows for generalizing deepfake video detection",
-          "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Choi_Exploiting_Style_Latent_Flows_for_Generalizing_Deepfake_Video_Detection_CVPR_2024_paper.pdf",
-          "venue_name": "CVPR",
-          "venue_suffix": ", 2024",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Choi, Jongwook, et al.",
+              "title": "Exploiting style latent flows for generalizing deepfake video detection",
+              "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Choi_Exploiting_Style_Latent_Flows_for_Generalizing_Deepfake_Video_Detection_CVPR_2024_paper.pdf",
+              "venue_name": "CVPR",
+              "venue_suffix": ", 2024"
+            }
+          ]
         },
         {
           "date": "2025-01-31",
           "presenter": "Xi",
-          "authors": "Wang, Xi, and Vicky Kalogeiton.",
-          "title": "Your diffusion model is an implicit synthetic image detector",
-          "url": "https://hal.science/hal-04713283/document",
-          "venue_name": "ECCVW",
-          "venue_suffix": ", 2024",
-          "type": "invited"
+          "type": "invited",
+          "papers": [
+            {
+              "authors": "Wang, Xi, and Vicky Kalogeiton.",
+              "title": "Your diffusion model is an implicit synthetic image detector",
+              "url": "https://hal.science/hal-04713283/document",
+              "venue_name": "ECCVW",
+              "venue_suffix": ", 2024"
+            }
+          ]
         },
         {
           "date": "2025-01-14",
           "presenter": "Eli",
-          "authors": "Lian, Jingchun, et al.",
-          "title": "A Large-scale Interpretable Multi-modality Benchmark for Facial Image Forgery Localization",
-          "url": "https://arxiv.org/pdf/2412.19685",
-          "venue_name": "arXiv:2412.19685 (2024)",
-          "venue_suffix": "",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Lian, Jingchun, et al.",
+              "title": "A large-scale interpretable multi-modality benchmark for facial image forgery localization",
+              "url": "https://arxiv.org/pdf/2412.19685",
+              "venue_name": "arXiv:2412.19685 (2024)",
+              "venue_suffix": ""
+            }
+          ]
         },
         {
           "date": "2024-12-20",
           "presenter": "Christos",
-          "authors": "Koutlis, Christos, and Symeon Papadopoulos.",
-          "title": "DiMoDif: Discourse Modality-information Differentiation for Audio-visual Deepfake Detection and Localization",
-          "url": "https://arxiv.org/pdf/2411.10193",
-          "venue_name": "arXiv:2411.10193 (2024)",
-          "venue_suffix": "",
-          "type": "invited"
+          "type": "invited",
+          "papers": [
+            {
+              "authors": "Koutlis, Christos, and Symeon Papadopoulos.",
+              "title": "DiMoDif: Discourse modality-information differentiation for audio-visual deepfake detection and localization",
+              "url": "https://arxiv.org/pdf/2411.10193",
+              "venue_name": "arXiv:2411.10193 (2024)",
+              "venue_suffix": ""
+            }
+          ]
         },
         {
           "date": "2024-12-06",
           "presenter": "Ștefan",
-          "authors": "Qiao, Tong, et al.",
-          "title": "Fully unsupervised deepfake video detection via enhanced contrastive learning",
-          "url": "https://www.computer.org/csdl/journal/tp/2024/07/10411047/1TV5sFpzZxS",
-          "venue_name": "PAMI",
-          "venue_suffix": " (2024)",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Qiao, Tong, et al.",
+              "title": "Fully unsupervised deepfake video detection via enhanced contrastive learning",
+              "url": "https://www.computer.org/csdl/journal/tp/2024/07/10411047/1TV5sFpzZxS",
+              "venue_name": "PAMI",
+              "venue_suffix": " (2024)"
+            }
+          ]
         },
         {
           "date": "2024-11-22",
           "presenter": "Andu",
-          "authors": "Sarkar, Ayush, et al.",
-          "title": "Shadows Don't Lie and Lines Can't Bend! Generative Models don't know Projective Geometry... for now",
-          "url": "https://arxiv.org/pdf/2311.17138",
-          "venue_name": "CVPR",
-          "venue_suffix": ", 2024",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Sarkar, Ayush, et al.",
+              "title": "Shadows don't lie and lines can't bend! Generative models don't know projective geometry... for now",
+              "url": "https://arxiv.org/pdf/2311.17138",
+              "venue_name": "CVPR",
+              "venue_suffix": ", 2024"
+            }
+          ]
         },
         {
           "date": "2024-11-08",
           "presenter": "Dan",
-          "authors": "Rajan, Anirudh Sundara, et al.",
-          "title": "On the Effectiveness of Dataset Alignment for Fake Image Detection",
-          "url": "https://arxiv.org/pdf/2410.11835",
-          "venue_name": "arXiv:2410.11835 (2024)",
-          "venue_suffix": "",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Rajan, Anirudh Sundara, et al.",
+              "title": "On the effectiveness of dataset alignment for fake image detection",
+              "url": "https://arxiv.org/pdf/2410.11835",
+              "venue_name": "arXiv:2410.11835 (2024)",
+              "venue_suffix": ""
+            }
+          ]
         },
         {
           "date": "2024-10-25",
           "presenter": "David",
-          "authors": "Azeemi, Abdul Hameed, Ihsan Ayyub Qazi, and Agha Ali Raza.",
-          "title": "Self-Supervised Dataset Pruning for Efficient Training in Audio Anti-spoofing",
-          "url": "https://www.isca-archive.org/interspeech_2023/azeemi23_interspeech.pdf",
-          "venue_name": "Interspeech",
-          "venue_suffix": ", 2023",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Azeemi, Abdul Hameed, Ihsan Ayyub Qazi, and Agha Ali Raza.",
+              "title": "Self-supervised dataset pruning for efficient training in audio anti-spoofing",
+              "url": "https://www.isca-archive.org/interspeech_2023/azeemi23_interspeech.pdf",
+              "venue_name": "Interspeech",
+              "venue_suffix": ", 2023"
+            }
+          ]
         },
         {
           "date": "2024-10-11",
           "presenter": "Eli",
-          "authors": "Oorloff, Trevine, et al.",
-          "title": "AVFF: Audio-Visual Feature Fusion for Video Deepfake Detection",
-          "url": "https://arxiv.org/pdf/2406.02951",
-          "venue_name": "CVPR",
-          "venue_suffix": ", 2024",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Oorloff, Trevine, et al.",
+              "title": "AVFF: Audio-visual feature fusion for video deepfake detection",
+              "url": "https://arxiv.org/pdf/2406.02951",
+              "venue_name": "CVPR",
+              "venue_suffix": ", 2024"
+            }
+          ]
         }
       ]
     },
@@ -215,132 +312,184 @@
         {
           "date": "2024-06-28",
           "presenter": "Ștefan",
-          "authors": "Chen, Baoying, et al.",
-          "title": "DRCT: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images",
-          "url": "https://openreview.net/forum?id=oRLwyayrh1",
-          "venue_name": "ICML",
-          "venue_suffix": ", 2024",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Chen, Baoying, et al.",
+              "title": "DRCT: Diffusion reconstruction contrastive training towards universal detection of diffusion generated images",
+              "url": "https://openreview.net/forum?id=oRLwyayrh1",
+              "venue_name": "ICML",
+              "venue_suffix": ", 2024"
+            }
+          ]
         },
         {
           "date": "2024-06-07",
           "presenter": "Christos",
-          "authors": "Chugh, Komal, et al.",
-          "title": "Not made for each other \u2014 audio-visual dissonance-based deepfake detection and localization",
-          "url": "https://arxiv.org/pdf/2005.14405",
-          "venue_name": "ACMM",
-          "venue_suffix": ", 2020",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Chugh, Komal, et al.",
+              "title": "Not made for each other — audio-visual dissonance-based deepfake detection and localization",
+              "url": "https://arxiv.org/pdf/2005.14405",
+              "venue_name": "ACMM",
+              "venue_suffix": ", 2020"
+            }
+          ]
         },
         {
           "date": "2024-05-22",
           "presenter": "Dan",
-          "authors": "Boyd, Aidan, et al.",
-          "title": "The value of AI guidance in human examination of synthetically-generated faces",
-          "url": "https://arxiv.org/pdf/2208.10544",
-          "venue_name": "AAAI",
-          "venue_suffix": ", 2023",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Boyd, Aidan, et al.",
+              "title": "The value of AI guidance in human examination of synthetically-generated faces",
+              "url": "https://arxiv.org/pdf/2208.10544",
+              "venue_name": "AAAI",
+              "venue_suffix": ", 2023"
+            }
+          ]
         },
         {
           "date": "2024-05-08",
           "presenter": "Adriana",
-          "authors": "Yu, Zhiyuan, Shixuan Zhai, and Ning Zhang.",
-          "title": "AntiFake: Using adversarial audio to prevent unauthorized speech synthesis",
-          "url": "https://dl.acm.org/doi/pdf/10.1145/3576915.3623209",
-          "venue_name": "ACM CCS",
-          "venue_suffix": ", 2023",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Yu, Zhiyuan, Shixuan Zhai, and Ning Zhang.",
+              "title": "AntiFake: Using adversarial audio to prevent unauthorized speech synthesis",
+              "url": "https://dl.acm.org/doi/pdf/10.1145/3576915.3623209",
+              "venue_name": "ACM CCS",
+              "venue_suffix": ", 2023"
+            }
+          ]
         },
         {
           "date": "2024-04-12",
           "presenter": "Spiros",
-          "authors": "Jia, Shan, Xin Li, and Siwei Lyu.",
-          "title": "Model attribution of face-swap deepfake videos",
-          "url": "https://arxiv.org/pdf/2202.12951.pdf",
-          "venue_name": "ICIP",
-          "venue_suffix": ", 2022",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Jia, Shan, Xin Li, and Siwei Lyu.",
+              "title": "Model attribution of face-swap deepfake videos",
+              "url": "https://arxiv.org/pdf/2202.12951.pdf",
+              "venue_name": "ICIP",
+              "venue_suffix": ", 2022"
+            }
+          ]
         },
         {
           "date": "2024-03-29",
           "presenter": "Gabi",
-          "authors": "M\u00fcller, Nicolas M., Franziska Dieckmann, and Jennifer Williams.",
-          "title": "Attacker attribution of audio deepfakes",
-          "url": "https://arxiv.org/pdf/2203.15563.pdf",
-          "venue_name": "Interspeech",
-          "venue_suffix": ", 2022",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Müller, Nicolas M., Franziska Dieckmann, and Jennifer Williams.",
+              "title": "Attacker attribution of audio deepfakes",
+              "url": "https://arxiv.org/pdf/2203.15563.pdf",
+              "venue_name": "Interspeech",
+              "venue_suffix": ", 2022"
+            }
+          ]
         },
         {
           "date": "2024-03-15",
           "presenter": "Eli",
-          "authors": "Zhang, Yue, et al.",
-          "title": "Common Sense Reasoning for Deep Fake Detection",
-          "url": "https://arxiv.org/pdf/2402.00126v1.pdf",
-          "venue_name": "arXiv:2402.00126 (2024)",
-          "venue_suffix": "",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Zhang, Yue, et al.",
+              "title": "Common sense reasoning for deep fake detection",
+              "url": "https://arxiv.org/pdf/2402.00126v1.pdf",
+              "venue_name": "arXiv:2402.00126 (2024)",
+              "venue_suffix": ""
+            }
+          ]
         },
         {
           "date": "2024-02-02",
           "presenter": "Ștefan",
-          "authors": "Nguyen, Dat, et al.",
-          "title": "LAA-Net: Localized Artifact Attention Network for High-Quality Deepfakes Detection",
-          "url": "https://arxiv.org/pdf/2401.13856.pdf",
-          "venue_name": "arXiv:2401.13856 (2024)",
-          "venue_suffix": "",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Nguyen, Dat, et al.",
+              "title": "LAA-Net: Localized artifact attention network for high-quality deepfakes detection",
+              "url": "https://arxiv.org/pdf/2401.13856.pdf",
+              "venue_name": "arXiv:2401.13856 (2024)",
+              "venue_suffix": ""
+            }
+          ]
         },
         {
           "date": "2024-01-19",
           "presenter": "Octav",
-          "authors": "Cai, Zexin, and Ming Li.",
-          "title": "Integrating frame-level boundary detection and deepfake detection for locating manipulated regions in partially spoofed audio forgery attacks",
-          "url": "https://www.sciencedirect.com/science/article/abs/pii/S088523082300116X",
-          "venue_name": "Computer Speech & Language",
-          "venue_suffix": " 85 (2024)",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Cai, Zexin, and Ming Li.",
+              "title": "Integrating frame-level boundary detection and deepfake detection for locating manipulated regions in partially spoofed audio forgery attacks",
+              "url": "https://www.sciencedirect.com/science/article/abs/pii/S088523082300116X",
+              "venue_name": "Computer Speech & Language",
+              "venue_suffix": " 85 (2024)"
+            }
+          ]
         },
         {
           "date": "2023-12-08",
           "presenter": "Adriana",
-          "authors": "Cai, Zhixi, et al.",
-          "title": "AV-Deepfake1M: A Large-Scale LLM-Driven Audio-Visual Deepfake Dataset",
-          "url": "https://arxiv.org/pdf/2311.15308.pdf",
-          "venue_name": "arXiv:2311.15308 (2023)",
-          "venue_suffix": "",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Cai, Zhixi, et al.",
+              "title": "AV-Deepfake1M: A large-scale LLM-driven audio-visual deepfake dataset",
+              "url": "https://arxiv.org/pdf/2311.15308.pdf",
+              "venue_name": "arXiv:2311.15308 (2023)",
+              "venue_suffix": ""
+            }
+          ]
         },
         {
           "date": "2023-11-24",
           "presenter": "Dan",
-          "authors": "Feng, Chao, Ziyang Chen, and Andrew Owens.",
-          "title": "Self-Supervised Video Forensics by Audio-Visual Anomaly Detection",
-          "url": "https://arxiv.org/pdf/2301.01767.pdf",
-          "venue_name": "CVPR",
-          "venue_suffix": ", 2023",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Feng, Chao, Ziyang Chen, and Andrew Owens.",
+              "title": "Self-supervised video forensics by audio-visual anomaly detection",
+              "url": "https://arxiv.org/pdf/2301.01767.pdf",
+              "venue_name": "CVPR",
+              "venue_suffix": ", 2023"
+            }
+          ]
         },
         {
           "date": "2023-11-10",
           "presenter": "Ema",
-          "authors": "Liang, Jiahao, et al.",
-          "title": "Exploring disentangled content information for face forgery detection",
-          "url": "https://arxiv.org/pdf/2207.09202.pdf",
-          "venue_name": "ECCV",
-          "venue_suffix": ", 2022",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Liang, Jiahao, et al.",
+              "title": "Exploring disentangled content information for face forgery detection",
+              "url": "https://arxiv.org/pdf/2207.09202.pdf",
+              "venue_name": "ECCV",
+              "venue_suffix": ", 2022"
+            }
+          ]
         },
         {
           "date": "2023-10-27",
           "presenter": "Eli",
-          "authors": "Yan, Zhiyuan, et al.",
-          "title": "UCF: Uncovering common features for generalizable deepfake detection",
-          "url": "https://arxiv.org/pdf/2304.13949.pdf",
-          "venue_name": "ICCV",
-          "venue_suffix": ", 2023",
-          "type": null
+          "type": null,
+          "papers": [
+            {
+              "authors": "Yan, Zhiyuan, et al.",
+              "title": "UCF: Uncovering common features for generalizable deepfake detection",
+              "url": "https://arxiv.org/pdf/2304.13949.pdf",
+              "venue_name": "ICCV",
+              "venue_suffix": ", 2023"
+            }
+          ]
         }
       ]
     }

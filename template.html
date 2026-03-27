@@ -13,11 +13,11 @@
 </head>
 <body>
 
-  <div class="container text-center my-3">
+  <div class="container text-center mt-3">
     <h2>Deepfake Detection Reading Group</h2>
   </div>
 
-  <div class="container pt-3">
+  <div class="container mt-3">
     <p>
       We meet every two weeks to discuss papers on deepfake detection.
       Each session features either a paper someone found interesting or an invited speaker presenting their own work (invited talks are denoted by <i class="bi bi-bookmark-star-fill"></i> below).
@@ -64,21 +64,23 @@
       <span class="text-muted">Date:</span> {{ p.date }} ·
       <span class="text-muted">Speaker:</span> {{ p.presenter }}
     </div>
+    {%- for paper in p.papers %}
     <div>
-      {%- if p.authors.endswith(', et al.') %}
-      {{ p.authors[:-8] }}, <em>et al.</em>
+      {%- if paper.authors.endswith(', et al.') %}
+      {{ paper.authors[:-8] }}, <em>et al.</em>
       {%- else %}
-      {{ p.authors }}
+      {{ paper.authors }}
       {%- endif %}
-      <a href="{{ p.url }}">{{ p.title }}.</a>
-      {%- if p.venue_suffix %}
-      <em>{{ p.venue_name }}</em>{{ p.venue_suffix }}.
+      <a href="{{ paper.url }}">{{ paper.title }}.</a>
+      {%- if paper.venue_suffix %}
+      <em>{{ paper.venue_name }}</em>{{ paper.venue_suffix }}.
       {%- else %}
-      {{ p.venue_name }}.
+      {{ paper.venue_name }}.
       {%- endif %}
     </div>
+    {%- endfor %}
+    </div>
     {% endfor %}
-  </div>
 
     {% endfor %}
   </div>
