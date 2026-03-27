@@ -11,6 +11,7 @@
 
 | date | presenter | paper |
 |------|-----------|-------|
+| 2026-03-27 | Viola | Negroni, Viola, _et al._ [Leveraging mixture of experts for improved speech deepfake detection.](https://arxiv.org/pdf/2409.16077) ICASSP, 2025. |
 | 2026-03-13 | Ștefan | Wang, Chi, _et al._ [Low-rank Orthogonal Subspace Intervention for Generalizable Face Forgery Detection.](https://arxiv.org/pdf/2601.11915) arXiv preprint arXiv:2601.11915 (2026). |
 | 2026-02-27 | Alin | Croitoru, Florinel-Alin, _et al._ [MAVOS-DD: Multilingual Audio-Video Open-Set Deepfake Detection Benchmark.](https://arxiv.org/pdf/2505.11109?) arXiv preprint arXiv:2505.11109 (2025). |
 | 2026-02-13 | Andu | Xiong, Wuti, Guoying Zhao, and Xiaobai Li. [Exemplar-Free Incremental Deepfake Detection.](https://ebooks.iospress.nl/doi/10.3233/FAIA240516) _ECAI_, 2025. |
