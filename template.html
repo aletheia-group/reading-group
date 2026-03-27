@@ -20,28 +20,28 @@
   <div class="container pt-3">
     <p>
       We meet every two weeks to discuss papers on deepfake detection.
-      Sessions are informal–we often dive straight into the paper together–so little to no preparation is required.
-      Each session features either a paper someone found interesting or an invited speaker presenting their own work (denoted by <i class="bi bi-bookmark-star-fill"></i> below).
-      If you'd like to attend or present, join our mailing list (details below).
+      Each session features either a paper someone found interesting or an invited speaker presenting their own work (invited talks are denoted by <i class="bi bi-bookmark-star-fill"></i> below).
+      Sessions are informal, we often dive straight into the paper together, so as a speaker there is little to prepare.
+      If you'd like to attend or present, feel free to join <a href={{ mailing_list_url }}>our mailing list</a>.
     </p>
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 gy-2">
       <div class="col">
-        <div class="label mb-1 text-secondary">When</div>
+        <div class="label text-secondary">When</div>
         <div>{{ schedule }}<br>{{ time }}</div>
         <a target="_blank" href="{{ calendar_url }}" class="d-inline-block"><img border="0"
             src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>
       </div>
       <div class="col">
-        <div class="label mb-1 text-secondary">Where</div>
+        <div class="label text-secondary">Where</div>
         <div><a href="{{ where_url }}">Online (Google Meet)</a></div>
       </div>
       <div class="col">
-        <div class="label mb-1 text-secondary">Mailing list</div>
+        <div class="label text-secondary">Mailing list</div>
         <div><a href="{{ mailing_list_url }}">Google Group</a></div>
       </div>
       <div class="col">
-        <div class="label mb-1 text-secondary">Notes &amp; resources</div>
+        <div class="label text-secondary">Notes &amp; resources</div>
         <div><a href="{{ wiki_url }}">Wiki</a></div>
       </div>
     </div>
@@ -58,13 +58,13 @@
     {% for p in season.presentations %}
     <div class="my-3">
     <div>
+      {%- if p.type == "invited" %}
+      <i class="bi bi-bookmark-star-fill"></i>
+      {%- endif %}
       <span class="text-muted">Date:</span> {{ p.date }} ·
       <span class="text-muted">Speaker:</span> {{ p.presenter }}
     </div>
     <div>
-      {%- if p.type == "invited" %}
-      <i class="bi bi-bookmark-star-fill"></i>
-      {%- endif %}
       {%- if p.authors.endswith(', et al.') %}
       {{ p.authors[:-8] }}, <em>et al.</em>
       {%- else %}
