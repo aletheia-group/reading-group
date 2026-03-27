@@ -98,7 +98,7 @@
         },
         {
           "date": "2025-05-09",
-          "presenter": "Teodor",
+          "presenter": "Teo",
           "authors": "Zhu, Yi, et al.",
           "title": "SLIM: Style-linguistics mismatch model for generalized audio deepfake detection",
           "url": "https://arxiv.org/pdf/2407.18517",
@@ -154,7 +154,7 @@
           "url": "https://arxiv.org/pdf/2411.10193",
           "venue_name": "arXiv:2411.10193 (2024)",
           "venue_suffix": "",
-          "type": null
+          "type": "invited"
         },
         {
           "date": "2024-12-06",
