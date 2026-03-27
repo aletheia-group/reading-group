@@ -11,6 +11,26 @@
       "time_range": ["2026-01", "‥."],
       "presentations": [
         {
+          "date": "2026-03-27",
+          "presenter": "Viola",
+          "authors": "Negroni, Viola, et al.",
+          "title": "Leveraging mixture of experts for improved speech deepfake detection",
+          "url": "https://arxiv.org/pdf/2409.16077",
+          "venue_name": "ICASSP",
+          "venue_suffix": ", 2025",
+          "type": "invited"
+        },
+        {
+          "date": "2026-03-13",
+          "presenter": "Ștefan",
+          "authors": "Wang, Chi, et al.",
+          "title": "Low-rank Orthogonal Subspace Intervention for Generalizable Face Forgery Detection",
+          "url": "https://arxiv.org/pdf/2601.11915",
+          "venue_name": "arXiv:2601.11915 (2026)",
+          "venue_suffix": "",
+          "type": null
+        },
+        {
           "date": "2026-02-27",
           "presenter": "Alin",
           "authors": "Croitoru, Florinel-Alin, et al.",
