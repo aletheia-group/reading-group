@@ -72,10 +72,12 @@
       {{ paper.authors }}
       {%- endif %}
       <a href="{{ paper.url }}">{{ paper.title }}.</a>
-      {%- if paper.venue_suffix %}
-      <em>{{ paper.venue_name }}</em>{{ paper.venue_suffix }}.
+      {%- if paper.venue_type == "conference" %}
+      <em>{{ paper.venue_name }}</em>, {{ paper.year }}.
+      {%- elif paper.venue_type == "journal" %}
+      <em>{{ paper.venue_name }}</em> ({{ paper.year }}).
       {%- else %}
-      {{ paper.venue_name }}.
+      {{ paper.venue_name }} ({{ paper.year }}).
       {%- endif %}
     </div>
     {%- endfor %}

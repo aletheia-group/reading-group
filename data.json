@@ -11,6 +11,21 @@
       "time_range": ["2026-01", "…"],
       "presentations": [
         {
+          "date": "2026-04-24",
+          "presenter": "Jonas",
+          "type": "invited",
+          "papers": [
+            {
+              "authors": "Höltervennhoff, Sandra, et al. ",
+              "title": "\"That's another doom I haven't thought about\": A User Study on AI Labels as a Safeguard Against Image-Based Misinformation",
+              "url": "https://arxiv.org/pdf/2505.22845",
+              "venue_name": "CHI",
+              "venue_type": "conference",
+              "year": 2025
+            }
+          ]
+        },
+        {
           "date": "2026-03-27",
           "presenter": "Viola",
           "type": "invited",
@@ -20,14 +35,16 @@
               "title": "Leveraging mixture of experts for improved speech deepfake detection",
               "url": "https://arxiv.org/pdf/2409.16077",
               "venue_name": "ICASSP",
-              "venue_suffix": ", 2025"
+              "venue_type": "conference",
+              "year": 2025
             },
             {
               "authors": "Negroni, Viola, et al.",
               "title": "Attention-based mixture of experts for robust speech deepfake detection",
               "url": "https://arxiv.org/pdf/2509.17585",
               "venue_name": "WIFS",
-              "venue_suffix": ", 2025"
+              "venue_type": "conference",
+              "year": 2025
             }
           ]
         },
@@ -40,15 +57,17 @@
               "authors": "Wang, Chi, et al.",
               "title": "Low-rank orthogonal subspace intervention for generalizable face forgery detection",
               "url": "https://arxiv.org/pdf/2601.11915",
-              "venue_name": "arXiv:2601.11915 (2026)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2601.11915",
+              "venue_type": "preprint",
+              "year": 2026
             },
             {
               "authors": "Yan, Zhiyuan, et al.",
               "title": "Orthogonal subspace decomposition for generalizable AI-generated image detection",
               "url": "https://arxiv.org/pdf/2411.15633",
               "venue_name": "ICML",
-              "venue_suffix": ", 2025"
+              "venue_type": "conference",
+              "year": 2025
             }
           ]
         },
@@ -61,8 +80,9 @@
               "authors": "Croitoru, Florinel-Alin, et al.",
               "title": "MAVOS-DD: Multilingual audio-video open-set deepfake detection benchmark",
               "url": "https://arxiv.org/pdf/2505.11109?",
-              "venue_name": "arXiv:2505.11109 (2025)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2505.11109",
+              "venue_type": "preprint",
+              "year": 2025
             }
           ]
         },
@@ -76,7 +96,8 @@
               "title": "Exemplar-free incremental deepfake detection",
               "url": "https://ebooks.iospress.nl/doi/10.3233/FAIA240516",
               "venue_name": "ECAI",
-              "venue_suffix": ", 2025"
+              "venue_type": "conference",
+              "year": 2025
             }
           ]
         },
@@ -90,7 +111,8 @@
               "title": "AuViRe: Audio-visual speech representation reconstruction for deepfake temporal localization",
               "url": "https://arxiv.org/pdf/2511.18993",
               "venue_name": "WACV",
-              "venue_suffix": ", 2026"
+              "venue_type": "conference",
+              "year": 2026
             }
           ]
         }
@@ -109,8 +131,9 @@
               "authors": "Dufour, Nicholas, et al.",
               "title": "AMMeBa: A large-scale survey and dataset of media-based misinformation in-the-wild",
               "url": "https://arxiv.org/pdf/2405.11697",
-              "venue_name": "arXiv:2405.11697 (2024)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2405.11697",
+              "venue_type": "preprint",
+              "year": 2024
             }
           ]
         },
@@ -124,14 +147,16 @@
               "title": "Unmasking real-world audio deepfakes: a data-centric approach",
               "url": "https://arxiv.org/abs/2506.09606",
               "venue_name": "Interspeech",
-              "venue_suffix": ", 2025"
+              "venue_type": "conference",
+              "year": 2025
             },
             {
               "authors": "Stan, Adriana, et al.",
               "title": "TADA: Training-free attribution and out-of-domain detection of audio deepfakes",
               "url": "https://arxiv.org/pdf/2506.05802",
               "venue_name": "Interspeech",
-              "venue_suffix": ", 2025"
+              "venue_type": "conference",
+              "year": 2025
             }
           ]
         },
@@ -145,7 +170,8 @@
               "title": "I can hear you: Selective robust training for deepfake audio detection",
               "url": "https://openreview.net/forum?id=2GcR9bO620",
               "venue_name": "ICLR",
-              "venue_suffix": ", 2025"
+              "venue_type": "conference",
+              "year": 2025
             }
           ]
         },
@@ -159,7 +185,8 @@
               "title": "SLIM: Style-linguistics mismatch model for generalized audio deepfake detection",
               "url": "https://arxiv.org/pdf/2407.18517",
               "venue_name": "NeurIPS",
-              "venue_suffix": ", 2024"
+              "venue_type": "conference",
+              "year": 2024
             }
           ]
         },
@@ -173,7 +200,8 @@
               "title": "Any-resolution AI-generated image detection by spectral learning",
               "url": "https://arxiv.org/pdf/2411.19417",
               "venue_name": "CVPR",
-              "venue_suffix": ", 2025"
+              "venue_type": "conference",
+              "year": 2025
             }
           ]
         },
@@ -187,7 +215,8 @@
               "title": "Exploiting style latent flows for generalizing deepfake video detection",
               "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Choi_Exploiting_Style_Latent_Flows_for_Generalizing_Deepfake_Video_Detection_CVPR_2024_paper.pdf",
               "venue_name": "CVPR",
-              "venue_suffix": ", 2024"
+              "venue_type": "conference",
+              "year": 2024
             }
           ]
         },
@@ -201,7 +230,8 @@
               "title": "Your diffusion model is an implicit synthetic image detector",
               "url": "https://hal.science/hal-04713283/document",
               "venue_name": "ECCVW",
-              "venue_suffix": ", 2024"
+              "venue_type": "conference",
+              "year": 2024
             }
           ]
         },
@@ -214,8 +244,9 @@
               "authors": "Lian, Jingchun, et al.",
               "title": "A large-scale interpretable multi-modality benchmark for facial image forgery localization",
               "url": "https://arxiv.org/pdf/2412.19685",
-              "venue_name": "arXiv:2412.19685 (2024)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2412.19685",
+              "venue_type": "preprint",
+              "year": 2024
             }
           ]
         },
@@ -228,8 +259,9 @@
               "authors": "Koutlis, Christos, and Symeon Papadopoulos.",
               "title": "DiMoDif: Discourse modality-information differentiation for audio-visual deepfake detection and localization",
               "url": "https://arxiv.org/pdf/2411.10193",
-              "venue_name": "arXiv:2411.10193 (2024)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2411.10193",
+              "venue_type": "preprint",
+              "year": 2024
             }
           ]
         },
@@ -243,7 +275,8 @@
               "title": "Fully unsupervised deepfake video detection via enhanced contrastive learning",
               "url": "https://www.computer.org/csdl/journal/tp/2024/07/10411047/1TV5sFpzZxS",
               "venue_name": "PAMI",
-              "venue_suffix": " (2024)"
+              "venue_type": "journal",
+              "year": 2024
             }
           ]
         },
@@ -257,7 +290,8 @@
               "title": "Shadows don't lie and lines can't bend! Generative models don't know projective geometry... for now",
               "url": "https://arxiv.org/pdf/2311.17138",
               "venue_name": "CVPR",
-              "venue_suffix": ", 2024"
+              "venue_type": "conference",
+              "year": 2024
             }
           ]
         },
@@ -270,8 +304,9 @@
               "authors": "Rajan, Anirudh Sundara, et al.",
               "title": "On the effectiveness of dataset alignment for fake image detection",
               "url": "https://arxiv.org/pdf/2410.11835",
-              "venue_name": "arXiv:2410.11835 (2024)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2410.11835",
+              "venue_type": "preprint",
+              "year": 2024
             }
           ]
         },
@@ -285,7 +320,8 @@
               "title": "Self-supervised dataset pruning for efficient training in audio anti-spoofing",
               "url": "https://www.isca-archive.org/interspeech_2023/azeemi23_interspeech.pdf",
               "venue_name": "Interspeech",
-              "venue_suffix": ", 2023"
+              "venue_type": "conference",
+              "year": 2023
             }
           ]
         },
@@ -299,7 +335,8 @@
               "title": "AVFF: Audio-visual feature fusion for video deepfake detection",
               "url": "https://arxiv.org/pdf/2406.02951",
               "venue_name": "CVPR",
-              "venue_suffix": ", 2024"
+              "venue_type": "conference",
+              "year": 2024
             }
           ]
         }
@@ -319,7 +356,8 @@
               "title": "DRCT: Diffusion reconstruction contrastive training towards universal detection of diffusion generated images",
               "url": "https://openreview.net/forum?id=oRLwyayrh1",
               "venue_name": "ICML",
-              "venue_suffix": ", 2024"
+              "venue_type": "conference",
+              "year": 2024
             }
           ]
         },
@@ -333,7 +371,8 @@
               "title": "Not made for each other — audio-visual dissonance-based deepfake detection and localization",
               "url": "https://arxiv.org/pdf/2005.14405",
               "venue_name": "ACMM",
-              "venue_suffix": ", 2020"
+              "venue_type": "conference",
+              "year": 2020
             }
           ]
         },
@@ -347,7 +386,8 @@
               "title": "The value of AI guidance in human examination of synthetically-generated faces",
               "url": "https://arxiv.org/pdf/2208.10544",
               "venue_name": "AAAI",
-              "venue_suffix": ", 2023"
+              "venue_type": "conference",
+              "year": 2023
             }
           ]
         },
@@ -361,7 +401,8 @@
               "title": "AntiFake: Using adversarial audio to prevent unauthorized speech synthesis",
               "url": "https://dl.acm.org/doi/pdf/10.1145/3576915.3623209",
               "venue_name": "ACM CCS",
-              "venue_suffix": ", 2023"
+              "venue_type": "conference",
+              "year": 2023
             }
           ]
         },
@@ -375,7 +416,8 @@
               "title": "Model attribution of face-swap deepfake videos",
               "url": "https://arxiv.org/pdf/2202.12951.pdf",
               "venue_name": "ICIP",
-              "venue_suffix": ", 2022"
+              "venue_type": "conference",
+              "year": 2022
             }
           ]
         },
@@ -389,7 +431,8 @@
               "title": "Attacker attribution of audio deepfakes",
               "url": "https://arxiv.org/pdf/2203.15563.pdf",
               "venue_name": "Interspeech",
-              "venue_suffix": ", 2022"
+              "venue_type": "conference",
+              "year": 2022
             }
           ]
         },
@@ -402,8 +445,9 @@
               "authors": "Zhang, Yue, et al.",
               "title": "Common sense reasoning for deep fake detection",
               "url": "https://arxiv.org/pdf/2402.00126v1.pdf",
-              "venue_name": "arXiv:2402.00126 (2024)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2402.00126",
+              "venue_type": "preprint",
+              "year": 2024
             }
           ]
         },
@@ -416,8 +460,9 @@
               "authors": "Nguyen, Dat, et al.",
               "title": "LAA-Net: Localized artifact attention network for high-quality deepfakes detection",
               "url": "https://arxiv.org/pdf/2401.13856.pdf",
-              "venue_name": "arXiv:2401.13856 (2024)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2401.13856",
+              "venue_type": "preprint",
+              "year": 2024
             }
           ]
         },
@@ -430,8 +475,9 @@
               "authors": "Cai, Zexin, and Ming Li.",
               "title": "Integrating frame-level boundary detection and deepfake detection for locating manipulated regions in partially spoofed audio forgery attacks",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S088523082300116X",
-              "venue_name": "Computer Speech & Language",
-              "venue_suffix": " 85 (2024)"
+              "venue_name": "Computer Speech & Language 85",
+              "venue_type": "journal",
+              "year": 2024
             }
           ]
         },
@@ -444,8 +490,9 @@
               "authors": "Cai, Zhixi, et al.",
               "title": "AV-Deepfake1M: A large-scale LLM-driven audio-visual deepfake dataset",
               "url": "https://arxiv.org/pdf/2311.15308.pdf",
-              "venue_name": "arXiv:2311.15308 (2023)",
-              "venue_suffix": ""
+              "venue_name": "arXiv:2311.15308",
+              "venue_type": "preprint",
+              "year": 2023
             }
           ]
         },
@@ -459,7 +506,8 @@
               "title": "Self-supervised video forensics by audio-visual anomaly detection",
               "url": "https://arxiv.org/pdf/2301.01767.pdf",
               "venue_name": "CVPR",
-              "venue_suffix": ", 2023"
+              "venue_type": "conference",
+              "year": 2023
             }
           ]
         },
@@ -473,7 +521,8 @@
               "title": "Exploring disentangled content information for face forgery detection",
               "url": "https://arxiv.org/pdf/2207.09202.pdf",
               "venue_name": "ECCV",
-              "venue_suffix": ", 2022"
+              "venue_type": "conference",
+              "year": 2022
             }
           ]
         },
@@ -487,7 +536,8 @@
               "title": "UCF: Uncovering common features for generalizable deepfake detection",
               "url": "https://arxiv.org/pdf/2304.13949.pdf",
               "venue_name": "ICCV",
-              "venue_suffix": ", 2023"
+              "venue_type": "conference",
+              "year": 2023
             }
           ]
         }

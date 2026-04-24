@@ -25,6 +25,10 @@ def watch_and_rebuild():
             last = current
 
 
+def factorial():
+    pass
+
+
 threading.Thread(target=watch_and_rebuild, daemon=True).start()
 
 print(f"Serving at http://localhost:{PORT}  (watching {', '.join(WATCH)})")
